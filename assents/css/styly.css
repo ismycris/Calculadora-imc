@@ -88,7 +88,7 @@ border-radius: 8px;
 .input-field input:focus{
     outline: none;
 }
-#calculete{
+#calculate{
     border: none;
     font-size: 1.25rem;
     font-weight: bolder;

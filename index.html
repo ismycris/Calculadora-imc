@@ -12,58 +12,58 @@
 <body>
     <main id="container">
         <section id="img">
-            <img src="assents/imgs/Personal Trainer-cuate.svg">
+            <img src=" assents/imgs/Personal Trainer-cuate.svg ">
         </section>
 
         <section id="calculator">
-        <form id="form">
-            <h1 id="title">
-                Calculadora- IMC
-            </h1>
-            <div class="input-box">
-                <label for="weigt">
-                    Peso em Kg
-                </label>
-                <div class="input-field">
-                    <i class="fa-solid fa-weight-hanging"></i>
-                    <input type="number" id="weiht" required>
-                    <span>
-                        Kg
-                    </span>
+            <form id="form">
+                <h1 id="title">
+                    Calculadora de IMC
+                </h1>
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <i class="fas fa-weight-hanging"></i>
+                        <input type="number" id="weight" required>
+                        <span>
+                            Kg
+                        </span>
+                    </div>
                 </div>
-            </div>
 
-            <div class="input-box">
-                <label for="weigt">
-                    Altura em mentros
-                </label>
-                <div class="input-field">
-                    <i class="fa-solid fa-ruler"></i>
-                    <input type="number" id="weiht" required>
-                    <span>
-                        m
-                    </span>
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                    <div class="input-field">
+                        <i class="fas fa-ruler"></i>
+                        <input type="number" id="height" step="0.01" required>
+                        <span>
+                            m
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate">Calcular</button>
+            </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span> Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="more-info">
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar">
+                        Mais informações
+                        <i class="fas fa-external-link-square-alt"></i>
+                    </a>
                 </div>
             </div>
-            <button id="calculete">Calcular</button>
-        </form>
-        <div id="infos" class="hidden">
-            <div id="result">
-                <div id="bmi">
-                    <span id="value"></span>
-                    <span> Seu IMC</span>
-                </div>
-                <div id="description">
-                    <span></span>
-                </div>
-            </div>
-            <div id="more-info">
-                <a href="https://mundoeducacao.uol.com.br/saude-bem-estar">
-                    Mais informações
-                    <i class="fa-solid fa-up-right-from-square"></i>
-                </a>
-            </div>
-            
         </section>
     </main>
     <script src="\assents\js\script.js"></script>
